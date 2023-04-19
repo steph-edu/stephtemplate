@@ -6,7 +6,7 @@
     
                 <?php
                         $time = array("Maria", "José", "Ana");
-                        echo $time[2]
+                        echo $time[2];
                         echo "<br />";
                         print_r($time);
                         
