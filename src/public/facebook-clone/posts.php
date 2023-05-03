@@ -6,7 +6,7 @@ $posts = array(
     'description' => 'Não perca a grande festa no parque amanhã! Teremos música ao vivo, comida e muita diversão para toda a família.',
     'image' => 'http://example.com/images/park-party.jpg',
     'link' => 'http://example.com/park-party',
-    'date' => '2023-05-15'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -14,7 +14,7 @@ $posts = array(
     'description' => 'Aproveite nossa promoção da semana! Todos os produtos com 20% de desconto.',
     'image' => 'http://example.com/images/promo.jpg',
     'link' => 'http://example.com/promo',
-    'date' => '2023-05-18'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -22,7 +22,7 @@ $posts = array(
     'description' => 'Confira nossas dicas para ter uma alimentação saudável e equilibrada.',
     'image' => 'http://example.com/images/healthy-food.jpg',
     'link' => 'http://example.com/healthy-food-tips',
-    'date' => '2023-05-22'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -30,7 +30,7 @@ $posts = array(
     'description' => 'Acabamos de receber muitas novidades em nossa loja! Venha conferir.',
     'image' => 'http://example.com/images/new-products.jpg',
     'link' => 'http://example.com/new-products',
-    'date' => '2023-05-25'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -38,7 +38,7 @@ $posts = array(
     'description' => 'Confira nossas dicas para manter seus cabelos saudáveis e bonitos.',
     'image' => 'http://example.com/images/hair-care.jpg',
     'link' => 'http://example.com/hair-care-tips',
-    'date' => '2023-05-29'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -46,7 +46,7 @@ $posts = array(
     'description' => 'Chegou a nova coleção de verão! Muitas novidades para você aproveitar.',
     'image' => 'http://example.com/images/summer-collection.jpg',
     'link' => 'http://example.com/summer-collection',
-    'date' => '2023-06-01'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -54,7 +54,7 @@ $posts = array(
     'description' => 'Confira nossas dicas para emagrecer com saúde e manter o peso ideal.',
     'image' => 'http://example.com/images/weight-loss.jpg',
     'link' => 'http://example.com/weight-loss-tips',
-    'date' => '2023-06-05'
+    'date' => date("m.d.y"),
   ),
   array(
     'name' => 'Lili',
@@ -62,7 +62,7 @@ $posts = array(
     'description' => 'Compre o presente para seu amor com um desconto especial! Use o código AMOR10 e ganhe 10% de desconto.',
     'image' => 'http://example.com/images/valentines-day.jpg',
     'link' => 'http://example.com/valentines-day-sale',
-    'date' => '2023-06-08'
+    'date' => date("m.d.y"),
   )
 );
 
