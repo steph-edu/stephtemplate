@@ -47,6 +47,53 @@
                         $ultimo_nome = "Lourdes";
                         echo $ultimo_nome; """
                         */
+
+
+                ?>
+                <?php 
+                                        function strconcat($palavra1, $palavra2) {
+                                                return $palavra1 . $palavra2;
+                                        }
+                                        echo strconcat('olá', ' a todos!');
+                ?>
+
+                <?php
+                $a = 3;
+                function teste()
+                {$a += 2; 
+                }
+
+                teste();
+                echo $a
+                ?>
+
+                <?php 
+                        function contador()
+                        {
+                                static $total = 0;
+                                return $total++;
+                        }
+
+                        for ($i = 1; $i <=5; $i++){
+                                echo contador();
+                        }
+                
+                ?>
+
+                <?php 
+                        function dobro(&$numero)
+                        {$numero = $numero * 2;
+                        }
+                        $a = 4;
+                        dobro($a);
+                        echo $a;
+                
+                ?>
+
+                <?php
+                        function pagamento($desconto=50)
+                        {echo 'O desconto foi de ' . $desconto . '%';}
+                        pagamento();
                 ?>
         </body>
 </html>
