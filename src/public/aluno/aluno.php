@@ -88,7 +88,13 @@ $estudante = new Estudante('Ana', 14, [70, 85, 62]);
 $estudante2 = new Estudante('Rodrigo', 13, [72, 67, 84]);
 echo 'Professor: ' . $professor1->getNome() . '. ';
 echo $professor1->getIdade() . 'anos, Salário: R$ ';
-
+echo $professor1->getSalario() . '<br> ';
+echo 'Estudante: ' . $estudante->getNome() . '. ';
+echo $estudante2->getIdade() . 'anos <br> ';
+echo 'Notas: <br>';
+foreach ($estudante2->getNotas() as $k => $nota){
+    echo $nota . '<br>';
+}
 
 ?>
 
